@@ -10,6 +10,8 @@ public class PassengerTest {
     @Test
     public void testPassengerWithValidInputs() {
         new Passenger("Mr", "John Doe", "0123456789", "0871234567", 30);
+        new Passenger("Mrs", "John Doe", "0123456789", "0871234567", 30);
+        new Passenger("Ms", "John Doe", "0123456789", "0871234567", 30);
     }
 
     @Test
